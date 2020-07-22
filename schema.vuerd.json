@@ -2,8 +2,8 @@
   "canvas": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": 428,
-    "scrollLeft": 82,
+    "scrollTop": 716,
+    "scrollLeft": 0,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -16,7 +16,7 @@
       "relationship": true
     },
     "database": "MySQL",
-    "databaseName": "",
+    "databaseName": "lanparty",
     "canvasType": "ERD",
     "language": "GraphQL",
     "tableCase": "pascalCase",
