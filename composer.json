@@ -1,0 +1,15 @@
+{
+    "require" : {
+        "stripe/stripe-php" : "3.*",
+        "phpmailer/phpmailer": "~5.2"
+    },
+    "autoload" : {
+        "psr-4": {
+            "" : [
+                "core/",
+                "app/controllers/",
+                "app/models/"
+            ]
+        }
+    }
+}
