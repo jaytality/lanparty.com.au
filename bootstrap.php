@@ -1,6 +1,7 @@
 <?php
 
 // check if a cookie exists with a matching session
+/*
 if (isset($_COOKIE['lanparty'])) {
     // if there is a cookie, split it into session_id and session id
     $cookie = explode(':', $_COOKIE['lanparty']);
@@ -23,3 +24,4 @@ if (isset($_COOKIE['lanparty'])) {
         }
     }
 }
+*/

@@ -4,7 +4,7 @@
 *
 *
 * @file: index.php
-* @author: Johnathan Tiong <j.tiong@eleague.gg>
+* @author: Johnathan Tiong <johnathan.tiong@gmail.com>
 */
 
 session_start();
