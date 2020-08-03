@@ -10,15 +10,10 @@
  *
  */
 
-$base->get("/", function () {
-    $controller = new Index;
-    return $controller->{'index'}();
-});
-
-    $base->post("/", function () {
-        $controller = new Index;
-        return $controller->{'index'}($_POST);
-    });
+foreach (glob("routes/*.php") as $filename)
+{
+    include $filename;
+}
 
 // ERROR: 404
 $base->notFound(function () {
