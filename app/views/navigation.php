@@ -27,10 +27,9 @@
                 </li>
             </ul>
 
-            <form class="d-flex">
-                <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <a class="btn btn-outline-warning" href="/users/login">Log In</a>
+            &nbsp;&nbsp;
+            <a class="btn btn-outline-success" href="/users/register">Register</a>
         </div>
     </div>
 </nav>
